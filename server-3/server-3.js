@@ -1,6 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
+    console.log('request in server 3');
     res.setHeader("Content-Type", "application/json");
     
     res.writeHead(200);
